@@ -1,0 +1,45 @@
+>> ¦¬a¸é¡ ´e‹¡“e ‰w¶
+
+¬e‹aŸ±¸aˆa ­¡Ÿ¡•¡ ´ô·¡ ”aˆaµ¥”a
+----+----- --+--- -+-- ---+----
+    |        +--+--+      |
+    |           +----+----+
+    +----------------+
+
+
+SYN     VFORM   DECL
+        TENSE   PRST
+SEM     PRED    <”aˆaµ¡”a>
+        SUBJ    REF     <¬e‹aŸ±¸a>
+        ADVB    TOO     REF     ­¡Ÿ¡
+                PRED    ´ô”a
+SUBCAT  HEAD    POS     <­¡Ÿ¡•¡ ´ô·¡ ”aˆaµ¥”a>
+                CAT     VP
+                HEAD    SYN     VFORM   DECL
+                                TENSE   PRST
+                        SEM     PRED    <”aˆaµ¡”a>
+                                ADVB    STATE   TOO     REF     ­¡Ÿ¡
+                                                PRED    ´ô”a
+                VAL     SELF    VERB#10
+                SUBCAT  HEAD    POS     <”aˆaµ¥”a>
+                                CAT     VP
+                                HEAD    SYN     VFORM   DECL
+                                                TENSE   PRST
+                                        SEM     PRED    <”aˆaµ¡”a>
+                        ADVB    POS     <­¡Ÿ¡•¡ ´ô·¡>
+                                HEAD    SYN     VFORM   DECL
+                                                TENSE   PRST
+                                        SEM     PRED    <´ô”a>
+                                                TOO     REF     <­¡Ÿ¡>
+                                SUBCAT  HEAD    POS     <´ô·¡>
+                                                CAT     VP
+                                                HEAD    SYN     VFORM   ADVP
+                                                        SEM     PRED    <´ô”a>
+                                        TOO     POS     <­¡Ÿ¡•¡>
+                                                CAT     NP
+                                                HEAD    SYN     NFORM   NORM
+                                                        SEM     TOO     REF     <­¡Ÿ¡>
+        SUBJ    POS     <¬e‹aŸ±¸aˆa>
+                CAT     NP
+                HEAD    SYN     NFORM   NORM
+                        SEM     SUBJ    REF     <¬e‹aŸ±¸a>

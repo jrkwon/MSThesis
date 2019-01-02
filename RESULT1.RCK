@@ -1,0 +1,14 @@
+[ÇØ¼®°á°ú]
+
+((POS   ¸Ô´Â´Ù)
+ (CAT   VERBP)
+ (HEAD  (SYN    (EWFORM  DECLM)
+                (OHONOR  LOWER1)
+                (TENSE   PRESNT)
+        )
+        (SEM    (PRED    ¸Ô)
+                )
+        )
+ )
+)
+

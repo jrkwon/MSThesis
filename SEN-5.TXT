@@ -1,0 +1,41 @@
+> ·¡´á»¥ ¢…¸w· ‰w¶
+
+¥±·¡ –A¡e, ¹·¡ Ï¡‰¡ ¬ˆa ¶…”a
+                          ----  ÙÑ  ·¡ •·¬aˆa ¢…¸w· º •·¬a¡ ¥¥”a
+                                    a á»¡ •·¬a“e ¦¬aÑw· •·¬aˆa ·¡ •·¬aŸi ®¯¢Ða“e ÑwÈ¡ ¥¥”a
+SYN     VFORM   Íw¬á
+        TENSE   Ñe¸
+SEM     PRED    ¶‰”a
+        SUBJ    REF     ¬
+        CONJUCT PRED    Ï¡”a
+                SUBJ    REF     ¹
+        IFCL    PRED    –A”a
+                SUBJ    REF     ¥±
+SUBCAT  HEAD    POS     <¹·¡ Ï¡‰¡ ¬ˆa ¶…”a>
+                HEAD    SYN     VFORM   Íw¬á
+                                TENSE   Ñe¸
+                        SEM     PRED    ¶‰”a
+                                SUBJ    REF     ¬
+                                CONJUCT PRED    Ï¡”a
+                                        SUBJ    REF     ¹
+                VAL     SELF    ...
+                SUBCAT  HEAD    POS     <¬ˆa ¶…”a>
+                                HEAD    SYN     VFORM   Íw¬á
+                                                TENSE   Ñe¸
+                                        SEM     PRED    ¶‰”a
+                                                SUBJ    REF     ¬
+                                ....
+                        CONJUCT POS     <¹·¡ Ï¡‰¡>
+                                HEAD    SYN     VFORM   Íw¬á
+                                                TENSE   Ñe¸
+                                        SEM     PRED    Ï¡”a
+                                                SUBJ    REF     ¹
+                                ..........
+        IFCL    POS     <¥±·¡ µ¡¡e>
+                HEAD    SYN     VFORM   Íw¬á
+                                TENSE   Ñe¸
+                        SEM     PRED    µ¡”a
+                                SUBJ    REF     ¥±
+                                ....
+                VAL     SELF    ...
+                ...........

@@ -1,0 +1,79 @@
+[조사]
+
+# 조사 생성용 파일
+
+# 받침 :
+# 일부조사는 받침에 따라 그 형태가 달라지는 것이 있다.
+# (주격조사 이/가, 목적격 조사 을/를... 따위)
+# 따라서 조사를 받침무관(FINALZ), 받침있음(FINALO), 받침없음(FINALX)으로 구분
+
+# ==========================================================================
+#  속성      받침              조사변화            조사
+# ==========================================================================
+# .............................. 격조사 ....................................
+   SUBJ      FINALX            0                   가
+   SUBJ      FINALO            0                   이
+   SUBJ2     FINALX            0                   가
+   SUBJ2     FINALO            0                   이
+   OBJ       FINALX            0                   를
+   OBJ       FINALO            0                   을
+   OBJ2      FINALX            0                   를
+   OBJ2      FINALO            0                   을
+   VOC       FINALX            0                   야
+   VOC       FINALO            0                   아
+   PREN      FINALZ            0                   의
+# .............................. 보조사 ....................................
+   TOPIC     FINALX            0                   는
+   TOPIC     FINALO            0                   은
+   INDEP     FINALZ            0                   만
+   NONSEL    FINALX            0                   라도
+   NONSEL    FINALO            0                   이라도
+   NONSPC    FINALX            1                   ㄴ들
+   NONSPC    FINALO            0                   인들
+   FROM      FINALZ            0                   부터
+   SELECT    FINALX            0                   나
+   SELECT    FINALO            0                   이나
+   SPCL      FINALX            0                   야말로
+   SPCL      FINALO            0                   이야말로
+   OFCAUSE   FINALX            0                   는커녕
+   OFCAUSE   FINALO            0                   은커녕
+   NOMORE    FINALZ            0                   밖에
+   INDICT    FINALX            1                   ㄹ랑은
+   INDICT    FINALO            0                   을랑은
+   EXPAND    FINALX            0                   나
+   EXPAND    FINALO            0                   이나
+   DISSAT    FINALX            0                   나마
+   DISSAT    FINALO            0                   이나마
+   EMPH      FINALX            0                   나
+   EMPH      FINALO            0                   이나
+   EACH      FINALZ            0                   씩
+   SURE      FINALZ            0                   곧
+   UNIFORM   FINALZ            0                   마다
+   TO        FINALZ            0                   까지
+   TOO       FINALZ            0                   도
+   FOLLOW    FINALZ            0                   마저
+   TOGETHR   FINALZ            0                   서껀
+# .............................. 부사격 조사 ...............................
+   SPLOC     FINALZ            0                   에서
+   TMLOC     FINALZ            0                   에
+   STLOC     FINALZ            0                   에게
+#  조사의 존칭 문제 !!!!  (한테 --> 께서)
+   SRC       FINALZ            0                   에게서
+   GOAL      FINALZ            0                   에게로
+#  다양한 형태의 조사 생성을 위해서는 어떤 방법이 강구되어야.... 에게로, 한테로,...
+   TOOL      FINALX            0                   로써
+   TOOL      FINALO            0                   으로써
+   QUAL      FINALX            0                   로
+   QUAL      FINALO            0                   으로
+#  '으로', '으로서'는 다른거 같다.. 특선으로서 뽑혔다(?), 특선으로 뽑혔다(o)
+   CHANGE    FINALX            0                   로
+   CHANGE    FINALO            0                   으로
+   CMPSMP    FINALX            0                   와
+   CMPSMP    FINALO            0                   과
+   CMPEQL    FINALZ            0                   만큼
+   CMPSAM    FINALZ            0                   처럼
+   CMPTHN    FINALZ            0                   보다
+   QUADIR    FINALZ            0                   라고
+   QUAIND    FINALZ            0                   고
+   CAUSE     FINALZ            0                   에
+# --------------------------------------------------------------------------

@@ -1,0 +1,172 @@
+[종결어미]
+
+# 종결어미 생성용 파일
+
+# [어미변경]은 어미쪽을 변경해야하는지에 대한 플래그
+# 예를 들어, '는다'는 어간이 받침이 없거나 어간 말음이 'ㄹ'이면
+# 'ㄴ다'이다. 또 '아'는 어간 마지막 글자의 모음이 음성모음이라면
+# '어'이다. 그러나 현재시제가 아닌 '어'는 어간 마지막 글자의
+# 음,양 모음에 상관없이 그냥 '어'이다.
+# 예를 들면 ['먹어', '살아'], ['먹었어', '살았어']
+
+# 시제에 대해...
+# 시제에 대한 정보는 종결어미가 아닌 선어말어미에서 처리된다.
+# 종결어미에서 쓰는 시제정보는 한마디로, '-었-'이 붙어있나를
+# 표시한다고 말할 수 있다.
+
+# ==========================================================================
+#  품사속성  시제     법      상대높임  어미변경   종결어미
+# ==========================================================================
+   OTHERS    PRESNT   DECLM   LOWER1    1          는다
+   OTHERS    PRESNT   DECLM   LOWER2    1          아
+   OTHERS    PRESNT   DECLM   LOWER3    0          네
+   OTHERS    PRESNT   DECLM   HIGHR1    1          오
+   OTHERS    PRESNT   DECLM   HIGHR2    1          아요
+   OTHERS    PRESNT   DECLM   HIGHR3    1          습니다
+#  ..........................................................................
+   OTHERS    OTHERS   DECLM   LOWER1    0          다
+   OTHERS    OTHERS   DECLM   LOWER2    0          어
+   OTHERS    OTHERS   DECLM   LOWER3    0          네
+   OTHERS    OTHERS   DECLM   HIGHR1    0          소
+   OTHERS    OTHERS   DECLM   HIGHR2    0          어요
+   OTHERS    OTHERS   DECLM   HIGHR3    0          습니다
+#  ..........................................................................
+   OTHERS    PRESNT   IRROM   LOWER1    0          니
+   OTHERS    PRESNT   IRROM   LOWER2    1          아
+   OTHERS    PRESNT   IRROM   LOWER3    1          는가
+   OTHERS    PRESNT   IRROM   HIGHR1    1          오
+   OTHERS    PRESNT   IRROM   HIGHR2    1          아요
+   OTHERS    PRESNT   IRROM   HIGHR3    1          습니까
+#  ..........................................................................
+   OTHERS    OTHERS   IRROM   LOWER1    0          니
+   OTHERS    OTHERS   IRROM   LOWER2    0          어
+   OTHERS    OTHERS   IRROM   LOWER3    0          는가
+   OTHERS    OTHERS   IRROM   HIGHR1    0          소
+   OTHERS    OTHERS   IRROM   HIGHR2    0          어요
+   OTHERS    OTHERS   IRROM   HIGHR3    0          습니까
+#  ..........................................................................
+   OTHERS    PRESNT   EXCLM   LOWER1    0          는구나
+   OTHERS    PRESNT   EXCLM   LOWER2    0          는군
+   OTHERS    PRESNT   EXCLM   LOWER3    0          는구먼
+   OTHERS    PRESNT   EXCLM   HIGHR1    0          는구먼
+   OTHERS    PRESNT   EXCLM   HIGHR2    0          는군요
+   OTHERS    PRESNT   EXCLM   HIGHR3    1          습니다그려
+#  ..........................................................................
+   OTHERS    OTHERS   EXCLM   LOWER1    0          구나
+   OTHERS    OTHERS   EXCLM   LOWER2    0          군
+   OTHERS    OTHERS   EXCLM   LOWER3    0          구먼
+   OTHERS    OTHERS   EXCLM   HIGHR1    0          구먼
+   OTHERS    OTHERS   EXCLM   HIGHR2    0          군요
+   OTHERS    OTHERS   EXCLM   HIGHR3    0          습니다그려
+#  ..........................................................................
+   OTHERS    PRESNT   IMPRM   LOWER1    1          아라
+   OTHERS    PRESNT   IMPRM   LOWER2    1          아
+   OTHERS    PRESNT   IMPRM   LOWER3    0          게
+   OTHERS    PRESNT   IMPRM   HIGHR1    1          오
+   OTHERS    PRESNT   IMPRM   HIGHR2    1          아요
+   OTHERS    PRESNT   IMPRM   HIGHR3    1          십시요
+#  ..........................................................................
+   OTHERS    PRESNT   ALLWM   LOWER1    1          렴
+   OTHERS    PRESNT   ALLWM   LOWER2    1          아
+   OTHERS    PRESNT   ALLWM   LOWER3    0          게나
+   OTHERS    PRESNT   ALLWM   HIGHR1    0          구료
+   OTHERS    PRESNT   ALLWM   HIGHR2    1          아요
+   OTHERS    PRESNT   ALLWM   HIGHR3    1          십시요
+#  ..........................................................................
+   OTHERS    PRESNT   PRMSM   LOWER1    1          마
+   OTHERS    PRESNT   PRMSM   LOWER2    1          아
+   OTHERS    PRESNT   PRMSM   LOWER3    1          ㅁ세
+   OTHERS    PRESNT   PRMSM   HIGHR1    0          리다
+   OTHERS    PRESNT   PRMSM   HIGHR2    0          지요
+   OTHERS    PRESNT   PRMSM   HIGHR3    0          오리다
+#  ..........................................................................
+   OTHERS    PRESNT   SGSTM   LOWER1    0          자
+   OTHERS    PRESNT   SGSTM   LOWER2    1          아
+   OTHERS    PRESNT   SGSTM   LOWER3    0          세
+   OTHERS    PRESNT   SGSTM   HIGHR1    0          요
+   OTHERS    PRESNT   SGSTM   HIGHR2    1          아요
+   OTHERS    PRESNT   SGSTM   HIGHR3    1          ㅂ시다
+#  ..........................................................................
+   ADJNAT    PRESNT   DECLM   LOWER1    0          다
+   ADJNAT    PRESNT   DECLM   LOWER2    1          아
+   ADJNAT    PRESNT   DECLM   LOWER3    1          네
+   ADJNAT    PRESNT   DECLM   HIGHR1    1          오
+   ADJNAT    PRESNT   DECLM   HIGHR2    1          아요
+   ADJNAT    PRESNT   DECLM   HIGHR3    1          습니다
+#  ..........................................................................
+   ADJNAT    OTHERS   DECLM   LOWER1    0          다
+   ADJNAT    OTHERS   DECLM   LOWER2    0          어
+   ADJNAT    OTHERS   DECLM   LOWER3    0          는가
+   ADJNAT    OTHERS   DECLM   HIGHR1    0          소
+   ADJNAT    OTHERS   DECLM   HIGHR2    0          어요
+   ADJNAT    OTHERS   DECLM   HIGHR3    0          습니다
+#  ..........................................................................
+   ADJNAT    PRESNT   IRROM   LOWER1    0          니
+   ADJNAT    PRESNT   IRROM   LOWER2    1          아
+   ADJNAT    PRESNT   IRROM   LOWER3    1          ㄴ가
+   ADJNAT    PRESNT   IRROM   HIGHR1    1          오
+   ADJNAT    PRESNT   IRROM   HIGHR2    1          아요
+   ADJNAT    PRESNT   IRROM   HIGHR3    1          습니까
+#  ..........................................................................
+   ADJNAT    OTHERS   IRROM   LOWER1    0          니
+   ADJNAT    OTHERS   IRROM   LOWER2    0          어
+   ADJNAT    OTHERS   IRROM   LOWER3    0          는가
+   ADJNAT    OTHERS   IRROM   HIGHR1    0          소
+   ADJNAT    OTHERS   IRROM   HIGHR2    0          어요
+   ADJNAT    OTHERS   IRROM   HIGHR3    0          습니까
+#  ..........................................................................
+   ADJNAT    PRESNT   EXCLM   LOWER1    0          구나
+   ADJNAT    PRESNT   EXCLM   LOWER2    0          군
+   ADJNAT    PRESNT   EXCLM   LOWER3    0          구려
+   ADJNAT    PRESNT   EXCLM   HIGHR1    1          오
+   ADJNAT    PRESNT   EXCLM   HIGHR2    0          군요
+   ADJNAT    PRESNT   EXCLM   HIGHR3    1          습니다그려
+#  ..........................................................................
+   ADJNAT    OTHERS   EXCLM   LOWER1    0          구나
+   ADJNAT    OTHERS   EXCLM   LOWER2    0          군
+   ADJNAT    OTHERS   EXCLM   LOWER3    0          구려
+   ADJNAT    OTHERS   EXCLM   HIGHR1    0          소
+   ADJNAT    OTHERS   EXCLM   HIGHR2    0          군요
+   ADJNAT    OTHERS   EXCLM   HIGHR3    0          습니다그려
+#  ..........................................................................
+   COPULA    PRESNT   DECLM   LOWER1    0          다
+   COPULA    PRESNT   DECLM   LOWER2    0          야
+   COPULA    PRESNT   DECLM   LOWER3    0          ㄹ세
+   COPULA    PRESNT   DECLM   HIGHR1    0          오
+   COPULA    PRESNT   DECLM   HIGHR2    0          요
+   COPULA    PRESNT   DECLM   HIGHR3    0          ㅂ니다
+#  ..........................................................................
+   COPULA    OTHERS   DECLM   LOWER1    0          다
+   COPULA    OTHERS   DECLM   LOWER2    0          어
+   COPULA    OTHERS   DECLM   LOWER3    0          네
+   COPULA    OTHERS   DECLM   HIGHR1    0          소
+   COPULA    OTHERS   DECLM   HIGHR2    0          어요
+   COPULA    OTHERS   DECLM   HIGHR3    0          ㅂ니다
+#  ..........................................................................
+   COPULA    PRESNT   IRROM   LOWER1    0          냐
+   COPULA    PRESNT   IRROM   LOWER2    0          야
+   COPULA    PRESNT   IRROM   LOWER3    0          ㄴ가
+   COPULA    PRESNT   IRROM   HIGHR1    0          오
+   COPULA    PRESNT   IRROM   HIGHR2    0          요
+   COPULA    PRESNT   IRROM   HIGHR3    0          ㅂ니까
+#  ..............................................................................
+   COPULA    OTHERS   IRROM   LOWER1    0          냐
+   COPULA    OTHERS   IRROM   LOWER2    0          어
+   COPULA    OTHERS   IRROM   LOWER3    0          을까
+   COPULA    OTHERS   IRROM   HIGHR1    0          소
+   COPULA    OTHERS   IRROM   HIGHR2    0          어요
+   COPULA    OTHERS   IRROM   HIGHR3    0          습니까
+#  ..........................................................................
+   COPULA    PRESNT   EXCLM   LOWER1    0          로구나
+   COPULA    PRESNT   EXCLM   LOWER2    0          로군
+   COPULA    PRESNT   EXCLM   LOWER3    0          로구먼
+   COPULA    PRESNT   EXCLM   HIGHR1    0          로구려
+   COPULA    PRESNT   EXCLM   HIGHR2    0          로군요
+   COPULA    PRESNT   EXCLM   HIGHR3    0          ㅂ니다그려
+#  ..........................................................................
+   COPULA    OTHERS   EXCLM   LOWER1    0          구나
+   COPULA    OTHERS   EXCLM   LOWER2    0          군
+   COPULA    OTHERS   EXCLM   LOWER3    0          구먼
+   COPULA    OTHERS   EXCLM   HIGHR1    0          구려
+   COPULA    OTHERS   EXCLM   HIGHR2    0          군요
+   COPULA    OTHERS   EXCLM   HIGHR3    0          습니다그려

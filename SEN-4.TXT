@@ -1,0 +1,104 @@
+> ·¥¶w¸é¡ ´e‹± ; »¢¸ó ·¥¶w
+
+´á˜å À÷‘e·¡ "·¡ ‹eÀáµA Ñ¢¯¡ ¸é·¡ ·¶¯s“¡Œa?"œa‰¡ ¢‰´ö”a
+
+ÙÑ ["·¡ ‹eÀá...·¶¯s“¡Œa?"] + [œa‰¡]¡ ´á¸é ¦…Ÿ¡!!
+
+SYN     VFORM   DECL
+        TENSE   PAST
+SEM     PRED    <¢ˆ”a>
+        SUBJ    REF     <À÷‘e>
+                NMOD    PRED    <´á˜å>
+        QUATD   STATE   SUBJ    REF     <¸é>
+                        ADVB    <Ñ¢¯¡>
+                        PRED    <·¶”a>
+                        SPLOC   REF     <‹eÀá>
+                                NMOD    PRED    <·¡>
+SUBCAT  HEAD    POS     <"·¡ ‹eÀáµA Ñ¢¯¡ ¸é·¡ ·¶¯s“¡Œa?"œa‰¡ ¢‰´ö”a>
+                CAT     VP
+                HEAD    SYN     VFORM   DECL
+                                TENSE   PAST
+                        SEM     PRED    <¢ˆ”a>
+                        QUATD   STATE   SUBJ    REFD    <¸é>
+                                        ADVB    <Ñ¢¯¡>
+                                        PRED    <·¶”a>
+                                        SPLOC   REF     <‹eÀá>
+                                                NMOD    PRED    <·¡>
+                SUBCAT  HEAD    POS     <¢‰´ö”a>
+                                CAT     VP
+                                HEAD    SYN     VFORM   DECL
+                                                TENSE   PAST
+                                        SEM     PRED    <¢ˆ”a>
+                                VAL     SELF    VERB#2
+                        QUATD   POS     <"·¡ ‹eÀáµA Ñ¢¯¡ ¸é·¡ ·¶¯s“¡Œa?"œa‰¡>
+                                CAT     NP
+                                HEAD    SYN     NFORM   NORM
+                                        SEM     QUATD   STATE   SUBJ    REF     <¸é>
+                                                                ADVB    <Ñ¢¯¡>
+                                                                PRED    <·¶”a>
+                                                                SPLOC   REF     <‹eÀá>
+                                                                        NMOD    PRED    <·¡>
+                                SUBCAT  HEAD    POS     <œa‰¡>
+                                                CAT     PP
+                                                HEAD    SYN    PFORM   QUATD
+                                        STATE   POS     <"·¡ ‹eÀáµA Ñ¢¯¡ ¸é·¡ ·¶¯s“¡Œa?">
+                                                HEAD    SYN     VFORM   IRRO
+                                                                TENSE   PRST
+                                                                OHONOR  6(Ðs“¡”a)
+                                                        SEM     SUBJ    REF     <¸é>
+                                                                ADVB    <Ñ¢¯¡>
+                                                                PRED    <·¶”a>
+                                                                SPLOC   REF     <‹eÀá>
+                                                                        NMOD    PRED    <·¡>
+                                                SUBCAT  HEAD    POS     <Ñ¢¯¡ ¸é·¡ ·¶¯s“¡Œa>
+                                                                HEAD    SYN     VFORM   IRRO
+                                                                                TENSE   PRST
+                                                                                OHONOR  6(Ðs“¡”a)
+                                                                        SEM     SUBJ    REF     ¸é
+                                                                                PRED    ·¶”a
+                                                                                ADVB    <Ñ¢¯¡>
+                                                                SUBCAT  HEAD    POS     <¸é·¡ ·¶¯s“¡Œa>
+                                                                                HEAD    SYN     VFORM   IRRO
+                                                                                                TENSE   PRST
+                                                                                                OHONOR  6(Ðs“¡”a)
+                                                                                        SEM     PRED    <·¶”a>
+                                                                                SUBCAT  HEAD    POS     <·¶¯s“¡Œa>
+                                                                                                HEAD    SYN     VFORM   IRRO
+                                                                                                                TENSE   PRST
+                                                                                                                OHONOR  6(Ðs“¡”a)
+                                                                                                                SEM     PRED    <·¶”a>
+                                                                                        SUBJ    POS     <¸é·¡>
+                                                                                                HEAD    SYN     NFORM   NORM
+                                                                                                                NUMBER  SNGL
+                                                                                                        SEM     SUBJ    REF     <¸é>   
+                                                                        ADVB    POS     <Ñ¢¯¡>
+                                                                                HEAD    SYN     ADVFORM NAT
+                                                                                        SEM     PRED    <Ñ¢¯¡>
+                                                        SPLOC   POS     <·¡ ‹eÀáµA>
+                                                                CAT     NP
+                                                                HEAD    SYN     NFORM   NORM
+                                                                                NUMBER  SNGL
+                                                                        SEM     SPLOC   REF     <‹eÀá>
+                                                                                        NMOD    PRED    <·¡>
+                                                                SUBCAT  HEAD    POS     <‹eÀáµA>
+                                                                                CAT     NP
+                                                                                HEAD    SYN     NFORM   NORM
+                                                                                                NUMBER  SNGL
+                                                                                        SEM     SPLOC   REF     <‹eÀá>
+                                                                        NMOD    POS     <·¡>
+                                                                                HEAD    SYN     PNFORM  DIR
+
+
+        SUBJ    POS     <´á˜å À÷‘e·¡>
+                HEAD    SYN     NFORM   NORM
+                                NUMBER  SNGL
+                        SEM     SUBJ    REF     <À÷‘e>
+                                        NMOD    PRED    <´á˜å>
+                SUBCAT  HEAD    POS     <À÷‘e·¡>
+                                HEAD    SYN     NFORM   NORM
+                                                NUM     SNGL
+                                        SEM     SUBJ    REF     <À÷‘e>
+                        NMOD    POS     <´á˜å>
+                                HEAD    SYN     PRNFORM ¬÷¬w
+                                        SEM     PRED    <´á˜å>
+

@@ -1,0 +1,12 @@
+static int nCurArcNum = 0;   /* 현재 노드에서 아크번호 (0 ~ MAX_ARC_CNT-1) */;
+static int OpenDataFile(pszFileName);
+static void CloseDataFile();
+static char *ReadLine();
+static int SkipSpace();
+static void GetWord(pszBuf);
+static void MakeNode(ppNode, nCurArc);
+static void MakeArc(pNode);
+static int ReadArc(pNode);
+static int SkipRootOpenParen();
+static int SkipRootCloseParen();
+int ReadResultNode(pszFileName, ppResultNode);

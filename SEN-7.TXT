@@ -1,0 +1,65 @@
+a“e ‹aˆa Ðb¬— ·¡  A·i ¡©œv´á¶a
+-+-- -+-- -+-- +- -+-- ---+----
+ |    |    +-+-+   |      |
+ |    +--+---+     |      |
+ |       +----+----+      |
+ |            +-----+-----+
+ +------------------+
+ 
+SYN     VFORM   DECL
+        OHONOR  5(Ð¶a)
+        TENSE   PAST
+SEM     PRED    <¡¡Ÿa”a>
+        OBJ     REF     < A>
+                STATE   PRED    <Ðb¬—>
+                        SUBJ    REF     <‹a>
+        TOPIC   REF     <a>
+SUBCAT  HEAD    POS     <‹aˆa Ðb¬—·±·i ¡©œv´á¶a>
+                CAT     VP
+                HEAD    SYN     VFORM   DECL
+                                OHONOR  5(Ð¶a)
+                                TENSE   PAST
+                        SEM     PRED    <¡¡Ÿa”a>
+                                OBJ     REF     < A>
+                                        STATE   PRED    <Ðb¬—>
+                                                SUBJ    REF     <‹a>
+                SUBCAT  HEAD    POS     <¡©œv´á¶a>
+                                CAT     VP
+                                HEAD    SYN     VFORM   DECL
+                                                OHONOR  5(Ð¶a)
+                                                TENSE   PAST
+                                        SEM     PRED    <¡¡Ÿa”a>
+                        OBJ     POS     <‹aˆa Ðb¬—·±·i>
+                                CAT     NP
+                                HEAD    SYN     NFORM   NOUNZ ; ¸å¬÷¡w¬a
+                                        SEM     OBJ     REF     < A>
+                                                        STATE   PRED    <Ðb¬—>
+                                                                SUBJ    REF     <‹a>
+                                SUBCAT  HEAD    POS     < A>
+                                                CAT     NP
+                                                HEAD    SYN     NFORM   NOUNZ
+                                                        SEM     OBJ     REF     < A>
+                                        STATE   POS     <‹aˆa Ðb¬—·¡>
+                                                CAT     VP
+                                                HEAD    SYN     VFORM   CPLA ;  »¡¸÷¬a ¸å¬÷
+                                                        SEM     PRED    <Ðb¬—>
+                                                                SUBJ    REF     <‹a>
+                                                SUBCAT  HEAD    POS     <Ðb¬—·¡>
+                                                                CAT     VP
+                                                                HEAD    SYN     VFORM   CPLA
+                                                                        SEM     PRED    <Ðb¬—>
+                                                                SUBCAT  HEAD    POS     <·¡>
+                                                                                CAT     VP
+                                                                                HEAD    SYN     CPLA
+                                                                                        SEM     PRED    <·¡>
+                                                                        STATE   POS     <Ðb¬—>
+                                                                                CAT     NP
+                                                                                HEAD    SYN     NFORM   NORM
+                                                                                        SEM     REF     <Ðb¬—>
+                                                        SUBJ    POS     <‹aˆa>
+                                                                HEAD    SYN     NFORM   NORM
+                                                                        SEM     SUBJ    REF     <‹a>
+        TOPIC   POS     <a“e>
+                HEAD    SYN     PROFORM PRONP
+                        SEM     TOPIC   REF     <a>
+

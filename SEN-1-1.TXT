@@ -1,0 +1,70 @@
+1) ¬á®‰¸é ´e‹±  ÙÑ  ”e¢…·a¡ ÀáŸ¡
+
+1-1) ¸á ¬aœq—i·e ¶•µµ·¡ ­¡ ˆa ¼lŠ…¶a.
+     +- ----+--- --+--- --+--- --+---
+     +--+---+      |      +--+---+
+        |          +----+----+
+        +---------------+
+
+
+SYN     EFORM   EXCL
+        TENSE   PRST
+        OHONOR  4(Ð¶a)
+SEM     PRED    <¼l”a>
+        SUBJ    REF     <­¡ >
+        SUBJ2   REF     <¶•µµ> 
+      Ü±TOPIC   REF     <¬aœq>
+                NMOD    <¸á>
+        ; '­¡ ˆa'µÁ '¼l”a'ˆa  å¸á ‰iÐsÐa‰A –A“e•A,  å¸á ‰iÐsÐe ˆõ·¡ SUBJ·¡‰¡
+        ;  ™¡”a¯¡ SUBJ¬÷¦…·¡ µ¡‰A–A¡e SUBJ2Ÿi Ði”wÐa‰A –E”a.
+VAL     SELF    VERB#2
+SUBCAT  HEAD    POS     <¶•µµ·¡ ­¡ ˆa ¼lŠ…¶a>
+                CAT     VP
+                HEAD    SYN     EFORM   EXCL
+                                TENSE   PRST
+                                OHONOR  4(Ð¶a)
+                        SEM     SUBJ    REF     <­¡ > 
+                                SUBJ2   REF     <¶•µµ>
+                                PRED    <¼l”a>
+                VAL     SELF    VERB#2
+                SUBCAT  HEAD    POS     <­¡ ˆa ¼lŠ…¶a>
+                                CAT     VP
+                                HEAD    SYN     EFORM   EXCL
+                                                TENSE   PRST
+                                                OHONOR  4(Ð¶a)
+                                        SEM     SUBJ    REF     <­¡ >
+                                                PRED    <¼l”a>
+                                VAL     SELF    VERB#2
+                                SUBCAT  HEAD    POS     <¼l”a>
+                                                CAT     VP
+                                                HEAD    SYN     EFORM   EXCL
+                                                                TENSE   PRST
+                                                                OHONOR  4(Ð¶a)
+                                                        SEM     PRED    <¼l”a>
+                                                VAL     SELF    VERB#2
+                                        SUBJ    POS     <­¡ ˆa>
+                                                CAT     NP
+                                                HEAD    SYN     NFORM   NORM
+                                                        SEM     SUBJ    REF     <­¡ >
+                        SUBJ2   POS     <¶•µµ·¡>
+                                CAT     NP
+                                HEAD    SYN     NFORM   NORM
+                                        SEM     SUBJ    REF     <¶•µµ>
+        TOPIC   POS     <¸á ¬aœq—i·e>
+                CAP     NP
+                HEAD    SYN     NFORM   NORMAL
+                                NUMBER  PLURAL
+                                PERSON  3
+                        SEM     TOPIC   REF     <¬aœq>
+                                        NMOD    <¸á>
+                SUBCAT  HEAD    POS     <¬aœq—i·e>
+                                CAT     NP
+                                HEAD    SYN     NFORM
+                                                NUMBER  PLURAL
+                                                PERSON  3
+                                        SEM     TOPIC   REF     <¬aœq>
+                        NMOD    POS     <¸á>
+                                CAT     PRON
+                                HEAD    SYN     PROFORM DIRM    ÙÐ ¬a¢‰ »¡¯¡”¡w¬a
+                                        SEM     NMOD    PRED    <¸á>
+

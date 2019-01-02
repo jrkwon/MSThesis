@@ -1,0 +1,86 @@
+나는 아직도 그를 사랑하고 있음 을 이제야 알았습니다
+-+-- --+--- -+-- ---+---- -+-- +- --+--- ----+-----
+ |     |     |      +--+---+   |    +----+---+
+ |     |     +----+----+       |         |
+ |     +-----+----+            |         |
+ +-----+-----+                 |         |
+       +----------+------------+         |
+                  +---------- ------------+
+
+
+SYN     VFORM   DECL
+        OHONOR  6(합니다)
+SEM     PRED    <알다>
+        ADVB    PRED    <이제야>
+        OBJ     REF     <음>
+                STATE   TOPIC   <나>
+                        ADVB    PRED    <아직도>
+                        OBJ     REF     <그>
+                        PRED    <사랑하다>
+SUBCAT  HEAD    POS     <이제야 알았습니다>
+                HEAD    SYN     VFORM   DECL
+                                OHONOR  6(합니다)
+                        SEM     PRED    <알다>
+                                ADVB    PRED    <이제야>
+                SUBCAT  HEAD    POS     <알았습니다>
+                                SYN     VFORM   DECL
+                                        OHONOR  6(합니다)
+                                SEM     PRED    <알았습니다>
+                        ADVB    POS     <이제야>
+                                SYN     ADVFORM NAT
+                                SEM     PRED    <이제야>
+        OBJ     POS     <나는 아직도 그를 사랑하고 있음을>
+                HEAD    SYN     NFORM   NORM
+                        SEM     OBJ     REF     <음>
+                                        STATE   TOPIC   REF     <나>
+                                                ADVB    PRED    <아직도>
+                                                OBJ     REF     <그>
+                                                PRED    <사랑하다>
+                SUBCAT  HEAD    POS     <음>
+                                HEAD    SYN     NFORM   NORM
+                                        SEM     OBJ     REF     <음>
+                        STATE   POS     <나는 아직도 그를 사랑하고 있>
+                                HEAD    SYN     VFORM   **** ;  ☞ 종결형도 아닌 것이, 전성형도 아닌 것이..
+                                                                   그냥.. 어미만 빼고 있네그려..
+                                                ING     +    ;  ☞ -고 있
+                                        SEM     PRED    <사랑하다>
+                                                OBJ     REF     <그를>
+                                                ADVB    PRED    <아직도>
+                                                TOPIC   REF     <나>
+                                SUBCAT  HEAD    POS     <아직도 그를 사랑하고 있>
+                                                HEAD    SYN     VFORM   ADAUX
+                                                                ING     +
+                                                        SEM     PRED    <사랑하다>
+                                                                OBJ     REF     <그>
+                                                                ADVB    PRED    <아직도>
+                                                SUBCAT  HEAD    POS     <그를 사랑하고 있>
+                                                                HEAD    SYN     VFORM   ADAUX
+                                                                                ING     +
+                                                                        SEM     PRED    <사랑하다>
+                                                                                OBJ     REF     <그>
+                                                                SUBCAT  HEAD    POS     <사랑하고 있>
+                                                                                HEAD    SYN     VFORM   ADAUX
+                                                                                                ING     +
+                                                                                        SEM     PRED    <사랑하다>      
+                                                                                                OBJ     REF     <그>
+                                                                                SUBCAT  HEAD    POS     <사랑하고 있>
+                                                                                                HEAD    SYN     VFORM   ADAUX
+                                                                                                                ING     +
+                                                                                                        SEM     PRED    <사랑하다>
+                                                                                                SUBCAT  HEAD    POS     <사랑하고>
+                                                                                                                HEAD    SYN     VFORM   GO
+                                                                                                                        SEM     PRED    <사랑하다>
+                                                                                                        AUX     POS     <있>
+                                                                                                                HEAD    SYN     AUXFORM ...
+                                                                                                                                ING     +
+                                                                                                                        SEM     PRED    <있다>
+                                                                        OBJ     POS     <그를>
+                                                                                HEAD    SYN     PROFORM DIRP
+                                                                                        SEM     OBJ     REF     <그>
+                                                        ADVB    POS     <아직도>
+                                                                HEAD    SYN     ADVFORM NAT
+                                                                        SEM     PRED    <아직도>
+                                        TOPIC   POS     <나는>
+                                                HEAD    SYN     PROFORM DIRP
+                                                        SEM     TOPIC   REF     <그>
+

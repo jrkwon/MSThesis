@@ -1,0 +1,15 @@
+[해석결과]
+
+((POS   자게_되었습니다)
+ (CAT   VERBP)
+ (HEAD  (SYN    (EWFORM  IRROM)
+                (OHONOR  HIGHR3)
+                (TENSE   PAST)
+                (BECOME  +)
+        )
+        (SEM    (PRED    자)
+                )
+        )
+ )
+)
+

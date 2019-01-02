@@ -1,0 +1,14 @@
+[해석결과]
+
+((POS   잤습니다)
+ (CAT   VERBP)
+ (HEAD  (SYN    (EWFORM  IRROM)
+                (OHONOR  HIGHR3)
+                (TENSE   PAST)
+        )
+        (SEM    (PRED    자)
+                )
+        )
+ )
+)
+
